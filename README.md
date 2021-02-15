@@ -1,4 +1,7 @@
-This is the real time chat repository for Comradery. You should change `API_PRODUCTION_URL` and `API_DEV_URL` in `index.js` to point to the backend Comradery servers you've set up.
+This is the real time chat repository for Comradery. If you haven't already, you should start with setting up the API server (Lionhearted, https://github.com/reparadocs/Comradery-API). This is a first pass at making this open source so there will be rough edges. Please email me at rishab at comradery dot io to let me know about any problems you run into, big or small, even if you figure out how to fix them yourself.
+
+
+You should change `API_PRODUCTION_URL` and `API_DEV_URL` in `index.js` to point to the backend Comradery servers you've set up.
 
 This should be fairly easy to run locally by using `yarn install` and then `node index.js`.
 
